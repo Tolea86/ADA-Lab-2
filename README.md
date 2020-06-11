@@ -1,7 +1,7 @@
 # ADA-Lab-2
 ADA Laboratory Work Nr.2 st.gr. TI-191M Iuzvac Anatolie
 
-# Decoupling
+## Decoupling
 
 **Coupling** describes the degree of dependency between one entity to another entity. Loose coupling is good because we don't want the components of our system to heavily depend on each other. We want to keep our system modular, where we can safely change one part without affecting the other.
 
@@ -11,7 +11,7 @@ When two parts are loosely coupled, they are more independent of each other and 
 
 **Spatial Decoupling** is used to decouple components which can be located in any place and work together as a system.
 
-# Decoupling Use Cases
+## Decoupling Use Cases
 
 1. **Payment system** in a project I work on, is working based on **Temporal Decoupling** which provides stability and security in implementation of payment flow in the project.
 2. **Mail Server** was created in a project I work on, on a different server than the server where the Main Backend System is stored and running, they intercommunicate between them using **SMTP** and **IMAP** Mail protocols with enabled **TLS** therefore using **Spatial Decoupling**.
