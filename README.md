@@ -13,7 +13,9 @@ When two parts are loosely coupled, they are more independent of each other and 
 
 # Decoupling Use Cases
 
-
+1. **Payment system** in a project I work on, is working based on **Temporal Decoupling** which provides stability and security in implementation of payment flow in the project.
+2. **Mail Server** was created in a project I work on, on a different server than the server where the Main Backend System is stored and running, they intercommunicate between them using **SMTP** and **IMAP** Mail protocols with enabled **TLS** therefore using **Spatial Decoupling**.
+3. **Backend for routing between two locations** created in a project I work on, on a different server than the server where the Main Backend System is stored and running, this server is setup fully to intercept two location points with latitude and longitude and give the response the distance and the route in points to be shown on map in front-end view and has stored on itself huge loads of map information of one country therefore using **Spatial Decoupling**.
 
 
 
